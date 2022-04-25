@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(233, 232, 231);
+}
+
+header {
+  height: 50px;
+  background-color: white;
+  margin-bottom: 30px;
+  padding: ;
+}
+
+.container {
+  gap: 10px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.leftAsideSection {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 10px;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 10px;
+}
+
+.rightAsideSection {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+.userProfile {
+  grid-area: userProfile;
+  background-color: rgb(32, 34, 37);
+}
+
+.userCompany {
+  grid-area: userCompany;
+  background-color: rgb(47, 49, 54);
+}
+
+.groups-events-recents {
+  grid-area: groups-events-recents;
+  background-color: rgb(47, 49, 54);
+}
+
+.createNewPost {
+  grid-area: createNewPost;
+  background-color: rgb(54, 57, 63);
+}
+
+.mainFeed {
+  grid-area: mainFeed;
+  background-color: rgb(47, 49, 54);
+}
+
+.linkedInNews {
+  grid-area: linkedInNews;
+  background-color: rgb(41, 43, 47);
+}
+
+.popularCourses {
+  grid-area: popularCourses;
+  background-color: rgb(54, 57, 63);
+}
+
+.addToYourFeed {
+  grid-area: addToYourFeed;
+  background-color: rgb(54, 57, 63);
+}
