@@ -4,12 +4,17 @@
   box-sizing: border-box;
   background-color: rgb(0, 0, 0);
 }
+h1 {
+  display: inline;
+  background-color: rgb(29, 34, 38);
+}
 
 header {
   height: 50px;
   background-color: rgb(29, 34, 38);
   margin-bottom: 30px;
-  padding: 0px 300px;
+  padding: 0px 400px;
+  color: white;
 }
 
 .container {
@@ -72,12 +77,24 @@ header {
 }
 
 .moreInfo {
-  /* display: flex; */
+  margin-left: 57.5px;
+  display: flex;
   flex-wrap: wrap;
-  text-align: center;
-  line-height: 2;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  line-height: 1;
+  width: 200px;
 }
 
-.moreInfo a {
+.moreInfo a,
+li {
   text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+.moreInfo a span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
