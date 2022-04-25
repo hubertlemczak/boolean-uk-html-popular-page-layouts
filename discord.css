@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template:
+    "leftAsideServers serverName channelHeader channelHeader" 50px
+    "leftAsideServers serverChannels mainChat rightAsideUsers" 1fr
+    "leftAsideServers userProfile chatBox rightAsideUsers" 50px / 70px 240px 1fr 240px;
+}
+
+.leftAsideServers {
+  grid-area: leftAsideServers;
+  background-color: rgb(32, 34, 37);
+}
+
+.serverName {
+  grid-area: serverName;
+  background-color: rgb(47, 49, 54);
+}
+
+.serverChannels {
+  grid-area: serverChannels;
+  background-color: rgb(47, 49, 54);
+}
+
+.channelHeader {
+  grid-area: channelHeader;
+  background-color: rgb(54, 57, 63);
+}
+
+.rightAsideUsers {
+  grid-area: rightAsideUsers;
+  background-color: rgb(47, 49, 54);
+}
+
+.userProfile {
+  grid-area: userProfile;
+  background-color: rgb(41, 43, 47);
+}
+
+.mainChat {
+  grid-area: mainChat;
+  background-color: rgb(54, 57, 63);
+}
+
+.chatBox {
+  grid-area: chatBox;
+  background-color: rgb(54, 57, 63);
+}
