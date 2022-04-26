@@ -124,13 +124,13 @@ span {
   color: rgb(133, 133, 133);
 }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .rightAsideSection {
     display: none;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .leftAsideSection {
     display: none;
   }
